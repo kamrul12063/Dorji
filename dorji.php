@@ -42,3 +42,5 @@ function dorji_include_assets() {
 }
 
 add_action("init", "dorji_include_assets");
+
+require_once 'function/admin-manue.php';
